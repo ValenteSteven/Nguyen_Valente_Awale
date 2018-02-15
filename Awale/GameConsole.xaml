@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Awale"
         mc:Ignorable="d"
-        Title="GameConsole" Height="300" Width="300">
+        Title="GameConsole" Height="1000" Width="2000
+        ">
     <Grid>
-        
+        <StackPanel Margin="0,0,1771.6,0.4">
+
+        </StackPanel>
+        <Grid Margin="222,0,-0.4,20.4">
+            <StackPanel Background="WhiteSmoke" Margin="100,230,1419,470"/>
+            <StackPanel Background="Black"       Margin="358,230,1161,470"/>
+            <StackPanel Background="WhiteSmoke" Margin="616,230,903,470"/>
+            <StackPanel Background="Black"      Margin="869,230,650,470"/>
+            <StackPanel Background="WhiteSmoke" Margin="1127,230,392,470"/>
+            <StackPanel Background="Black"      Margin="1385,225,134,475"/>
+            <StackPanel Background="Black"      Margin="100,480,1419,220"/>
+            <StackPanel Background="WhiteSmoke" Margin="358,480,1161,220"/>
+            <StackPanel Background="Black"      Margin="616,480,903,220"/>
+            <StackPanel Background="WhiteSmoke" Margin="874,480,645,220"/>
+            <StackPanel Background="Black"      Margin="1127,480,392,220"/>
+            <StackPanel Background="WhiteSmoke" Margin="1385,480,134,220"/>
+        </Grid>
     </Grid>
 </Window>
