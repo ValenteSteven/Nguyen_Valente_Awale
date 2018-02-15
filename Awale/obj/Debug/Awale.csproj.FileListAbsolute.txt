@@ -1,0 +1,16 @@
+C:\Users\reiko\source\repos\Awale\Awale\bin\Debug\Awale.exe.config
+C:\Users\reiko\source\repos\Awale\Awale\bin\Debug\Awale.exe
+C:\Users\reiko\source\repos\Awale\Awale\bin\Debug\Awale.pdb
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\MainWindow.g.cs
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\NameWindow.g.cs
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\App.g.cs
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale_MarkupCompile.cache
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale_MarkupCompile.lref
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\MainWindow.baml
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\NameWindow.baml
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.g.resources
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.Properties.Resources.resources
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.csproj.GenerateResource.Cache
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.csproj.CoreCompileInputs.cache
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.exe
+C:\Users\reiko\source\repos\Awale\Awale\obj\Debug\Awale.pdb
