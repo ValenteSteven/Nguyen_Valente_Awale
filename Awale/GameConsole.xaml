@@ -4,55 +4,60 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Awale"
+        xmlns:control="clr-namespace:Awale.UC"
         mc:Ignorable="d"
-        Title="GameConsole" Height="1000" Width="2000
+        Title="GameConsole" Height="500" Width="1000
         ">
     <Grid>
-        <StackPanel Margin="0,0,1771.6,0.4">
+        
+        
+        <StackPanel Margin="0,0,867.6,0.4">
             <TextBlock>
                 Player1
             </TextBlock>
             <TextBlock>
                 Player2
             </TextBlock>
+            <ContentControl Name="test">
+            </ContentControl>
         </StackPanel>
-        <Grid Margin="222,0,-0.4,20.4">
-            <StackPanel Background="WhiteSmoke" Margin="100,230,1419,470">
+        <Grid Margin="131,0,-0.4,20.4">
+            <Button Background="WhiteSmoke" Margin="149,162,625,200">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel  Background="Black" Margin="358,230,1161,470">
+            </Button>
+            <Button  Background="Black" Margin="243,162,531,200">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="WhiteSmoke" Margin="616,230,903,470">
+            </Button>
+            <Button Background="WhiteSmoke" Margin="337,162,437,200">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="Black"      Margin="869,230,650,470">
+            </Button>
+            <Button Background="Black" Margin="431,162,341,200" x:Name="testEnabled">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="WhiteSmoke" Margin="1127,230,392,470">
+            </Button>
+            <Button Background="WhiteSmoke" Margin="527,157,247,200">
+                <Image Source="{Binding Toto, Mode=TwoWay}"/>
+            </Button>
+            <Button Background="Black" Margin="621,157,153,200">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="Black"      Margin="1385,225,134,475">
+            </Button>
+            <Button Background="Black" Margin="149,250,625,112">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="Black"      Margin="100,480,1419,220">
+            </Button>
+            <Button Background="WhiteSmoke" Margin="243,250,531,112">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="WhiteSmoke" Margin="358,480,1161,220">
+            </Button>
+            <Button Background="Black"      Margin="337,250,437,112">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="Black"      Margin="616,480,903,220">
+            </Button>
+            <Button Background="WhiteSmoke" Margin="431,250,343,112">
                 <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="WhiteSmoke" Margin="874,480,645,220">
-                <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="Black"      Margin="1127,480,392,220">
-                <Image Source="/Images/awale.png"/>
-            </StackPanel>
-            <StackPanel Background="WhiteSmoke" Margin="1385,480,134,220">
-                <Image Source="/Images/awale.png"/>
-            </StackPanel>
+            </Button>
+            <Button Click="Button_ClickTest" Background="Black" Margin="527,250,247,112">
+                <Image Source="/Images/awale.png" />
+            </Button>
+            <Button Background="WhiteSmoke" Margin="621,250,153,112">
+                <Image Source="/Images/awale.png" />
+            </Button>
         </Grid>
     </Grid>
 </Window>

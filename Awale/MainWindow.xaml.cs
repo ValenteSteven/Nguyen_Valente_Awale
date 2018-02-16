@@ -23,7 +23,7 @@ namespace Awale
     /// </summary>
     public partial class MainWindow : Window
     {
-        String namePlayer;
+        //String namePlayer;
 
 
         public MainWindow()
@@ -54,6 +54,13 @@ namespace Awale
             NameWindow name = new NameWindow();
             this.Close();
             name.Show();
+        }
+
+        private void Launch_Local_Game(object sender, RoutedEventArgs e)
+        {
+            GameConsole gC = new GameConsole();
+            this.Close();
+            gC.Show();
         }
     }
 }
