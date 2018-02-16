@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UC\BoardGameUC.xaml.cs">
+      <DependentUpon>BoardGameUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UC\CaseUC.xaml.cs">
+      <DependentUpon>CaseUC.xaml</DependentUpon>
+    </Compile>
     <Page Include="GameConsole.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,6 +83,14 @@
     <Page Include="NameWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UC\BoardGameUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UC\CaseUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
